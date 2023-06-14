@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { StockItemComponent } from './stock/stock-item/stock-item.component';
+import { CreateStockComponent } from './stock/create-stock/create-stock.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StockItemComponent
+    StockItemComponent,
+    CreateStockComponent
   ],
   imports: [
     BrowserModule,
